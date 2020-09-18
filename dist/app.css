@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+  }
+  nav {
+    background-color: yellow;
+  }
+  
+  nav li {
+    display: inline;
+
+  }
+
+  h1 {
+    color: white;
+    background-color: rgb(255, 99, 71);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  a {
+    color: rgb(108, 105, 255);
+    text-decoration: none;
+  }
+
+  /* unvisited link */
+ a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+ a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: cyan;
+  }
+
+  
+  
