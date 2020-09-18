@@ -1,50 +1,46 @@
 body {
     background-color: lightblue;
-  }
-  nav {
-    background-color: yellow;
-  }
-  
-  nav li {
-    display: inline;
-
-  }
-
-  h1 {
-    color: white;
-    background-color: rgb(255, 99, 71);
-    text-align: center;
-  }
-  
-  p {
+    margin: 0;
     font-family: verdana;
-    font-size: 20px;
   }
-
-  a {
-    color: rgb(108, 105, 255);
+  .active {
+    background-color: #4CAF50;
+  }
+  main {
+    padding-left: 20px;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
   }
-
-  /* unvisited link */
- a:link {
-    color: blue;
-  }
   
-  /* visited link */
- a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: cyan;
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
   }
 
-  
-  
+  footer {
+    background-color: #111;
+    color: white;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+    }
