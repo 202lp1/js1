@@ -5,33 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=100, initial-scale=1.0">
   <title>Clase 01</title>
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <nav >
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li style="float:right"><a class="active" href="#about">About</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h1>Apples</h1>
-    <p>The apple is the pomaceous fruit of the apple tree.</p>
-    
-    <article>
-      <h2>Red Delicious</h2>
-      <p>These bright red apples are the most common found in many
-      supermarkets.</p>
-      <p>... </p>
-      <p>... </p>
-    </article>
   
-  
-  </main>
-  <footer>Footer</footer>
+  <form id="formTask">
+    <div >
+      <label for="">Ingrese tarea: </label>
+      <input type="text" name="title" placeholder="tarea" >
+    </div>
 
+    <div>
+      <textarea id="description" placeholder="description"  ></textarea>
+    </div>
+    <button type="submit" >Save</button>
+  </form>
+  
+ 
+  <script src="./app.js"></script>
 </body>
 </html>
